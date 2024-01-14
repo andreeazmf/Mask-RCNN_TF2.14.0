@@ -205,7 +205,7 @@ def display_differences(image,
     display_instances(
         image,
         boxes, masks, class_ids,
-        class_names, scores, ax=ax,
+        class_names, scores, figAx=ax,
         show_bbox=show_box, show_mask=show_mask,
         colors=colors, captions=captions,
         title=title)
